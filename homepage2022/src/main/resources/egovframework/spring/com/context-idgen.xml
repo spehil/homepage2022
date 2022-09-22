@@ -2076,7 +2076,6 @@
 	</bean>
 <!-- 	RESVEINFO END -->
 
-
 <!-- RESVEREQSTINFO START 예약자 -->
 	<bean name="egovReqIdGnrService"
 		class="egovframework.rte.fdl.idgnr.impl.EgovTableIdGnrServiceImpl"

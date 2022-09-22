@@ -2,10 +2,13 @@ package egovframework.let.rsv.service;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import egovframework.rte.psl.dataaccess.util.EgovMap;
 
 public interface ReservationService {
 	
+
 	//예약 목록 가져오기
 	public List<EgovMap> selectReservationList(ReservationVO vo) throws Exception;
 	

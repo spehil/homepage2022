@@ -21,7 +21,7 @@ public class ReservationVO extends ComDefaultVO implements Serializable {
 //	운영종료일
 	private String useEndDt;
 //	운영시작시간
-	private String useBiginTime;
+	private String useBeginTime;
 //	운영종료시간
 	private String useEndTime;
 //	내용
@@ -33,7 +33,7 @@ public class ReservationVO extends ComDefaultVO implements Serializable {
 //	사용여부
 	private String useAt;
 //	최초등록시점
-	private java.util.Date frestRegistPnttm;
+	private java.util.Date frstRegistPnttm;
 //	최초 등록자ID
 	private String frstRegisterId;
 //	최초수정시점
@@ -90,12 +90,12 @@ public String getResveSeCode() {
 		this.useEndDt = useEndDt;
 	}
 
-	public String getUseBiginTime() {
-		return useBiginTime;
+	public String getUseBeginTime() {
+		return useBeginTime;
 	}
 
-	public void setUseBiginTime(String useBiginTime) {
-		this.useBiginTime = useBiginTime;
+	public void setUseBeginTime(String useBeginTime) {
+		this.useBeginTime = useBeginTime;
 	}
 
 	public String getUseEndTime() {
@@ -138,12 +138,14 @@ public String getResveSeCode() {
 		this.useAt = useAt;
 	}
 
-	public java.util.Date getFrestRegistPnttm() {
-		return frestRegistPnttm;
+
+
+	public java.util.Date getFrstRegistPnttm() {
+		return frstRegistPnttm;
 	}
 
-	public void setFrestRegistPnttm(java.util.Date frestRegistPnttm) {
-		this.frestRegistPnttm = frestRegistPnttm;
+	public void setFrstRegistPnttm(java.util.Date frstRegistPnttm) {
+		this.frstRegistPnttm = frstRegistPnttm;
 	}
 
 	public String getFrstRegisterId() {
